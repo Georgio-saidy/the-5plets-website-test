@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.9">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="welcome.html"><img src="The 5plets Logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <img src="close logo.png" class="close" onclick="hideMenu()">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="login/login.html">LOGIN</a></li>
+              <li><a href="https://teamup.com/ksf7g8x4n7th2qpsr7">CALENDAR</a></li>
+              <li><a href="https://chat.whatsapp.com/HNrM59k6odBKEAYdlgx3cC">GROUP CHAT</a></li>
+            </ul>
+      </div>
+<img src="menu logo.png" class="menu" onclick="showMenu()">
+</nav>
+
+<div class="text-box">
+<align="center">
+  <h1>Welcome to The 5plets Website</h1>
+  <p>Expect updates to the Website soon</p></align>
+  </section>
+
+<script>
+
+ var navLinks=document.getElementById("navLinks")
+
+ function showMenu(){
+   navLinks.style.right="0";
+ }
+ function hideMenu(){
+  navLinks.style.right="-200px";
+}
+
+</script>
+
+</body>
+</html>
